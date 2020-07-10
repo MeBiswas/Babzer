@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Babzer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+        <link rel="icon" href="img/fav.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-editable-select.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css">
+        <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+        <link rel="stylesheet" type="text/css" href="css/margins-min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive-style.css">
+    </head>
+    <body>
+        <header class="header-main header-two header-dash">
+            <div class="header-min">
+                    <nav class="navbar nav-sec">
+                        <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" /></a>
+                                    <span class="toggle-cus-btn"><i class="fa fa-bars"></i></span>
+                                </div>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                <div class="collapse dash-collapse navbar-collapse" id="">
+                                    <div class="nav navbar-nav navbar-right navigation-ul animated fadeInDown">
+                                        <div class="row">
+                                            <div class="col-md-7 col-sm-6 col-xs-6">
+                                                <div class="dash-search">
+                                                    <form>
+                                                        <div class="input-group">
+                                                            
+                                                            <input type="text" class="form-control txtfield top-search" placeholder="Search people and help requests" name="">
+                                                            <span class="input-group-addon"><a href="search-users-list.html"><i class="fa fa-search"></i></a></span>
+
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 col-sm-6 col-xs-6 top-resol">
+                                                <div class="dash-alerts">
+                                                    <ul>
+                                                        <li class="ask-help-li"><a class="btn cus-btn" href="javascript:void(0)">Ask Help</a></li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-envelope fa-fw"></i></span></a>
+                                                            <div class="top-notify top-dashmain-li message-li">
+                                                                <h4>Messages</h4>
+                                                                <div class="notify-contnt">
+                                                                    <div class="noti-mini">
+                                                                        <div class="noti-img">
+                                                                            <img src="img/profile.jpg" class="img-responsive" />
+                                                                        </div>
+                                                                        <div class="noti-desc">
+                                                                            <h5>
+                                                                                <a href="other-user-profile.html"> William James (2)</a> <span class="pull-right messge-time">10 min ago</span></h5>
+                                                                            <p>Hello..</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="noti-mini">
+                                                                        <div class="noti-img">
+                                                                            <img src="img/profile1.jpg" class="img-responsive" />
+                                                                        </div>
+                                                                        <div class="noti-desc">
+                                                                            <h5>
+                                                                                <a href="other-user-profile.html"> John Smith (1)</a> <span class="pull-right messge-time">17 min ago</span></h5>
+                                                                            <p>What are you doing tomarrow ?</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <a class="see-all-notify" href="messages.html">See All</a>
+
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-bell fa-fw"></i></span></a>
+                                                            <div class="top-notify top-dashmain-li">
+                                                                <h4>Notifications</h4>
+                                                                <div class="notify-contnt">
+                                                                    <div class="noti-mini">
+                                                                        <div class="noti-img">
+                                                                            <img src="img/profile1.jpg" class="img-responsive" />
+                                                                        </div>
+                                                                        <div class="noti-desc">
+                                                                            <h5>
+                                                                                <a href="other-user-profile.html"> Tony Stark </a> accept your Offer. 
+                                                                                <span class="pull-right post-ellip-icon">
+                                                                                    <div class="dropdown">
+                                                                                        <a data-toggle="dropdown" type="button" class="public-btn dropdown-toggle" aria-expanded="true"><i class="fa fa-ellipsis-h"></i> </a>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><a class="edit-post" href="javascript:void(0)"><span class="fa fa-eye-slash fa-fw"></span> Hide </a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <span><i class="fa fa-globe"></i> 10 min ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="noti-mini">
+                                                                        <div class="noti-img">
+                                                                            <img src="img/profile.jpg" class="img-responsive" />
+                                                                        </div>
+                                                                        <div class="noti-desc">
+                                                                            <h5>
+                                                                                <a href="other-user-profile.html"> William James </a> shared a memory. 
+                                                                                <span class="pull-right post-ellip-icon">
+                                                                                    <div class="dropdown">
+                                                                                        <a data-toggle="dropdown" type="button" class="public-btn dropdown-toggle" aria-expanded="true"><i class="fa fa-ellipsis-h"></i> </a>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><a class="edit-post" href="javascript:void(0)"><span class="fa fa-eye-slash fa-fw"></span> Hide </a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <span><i class="fa fa-globe"></i> 20 min ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="noti-mini">
+                                                                        <div class="noti-img">
+                                                                            <img src="img/profile1.jpg" class="img-responsive" />
+                                                                        </div>
+                                                                        <div class="noti-desc">
+                                                                            <h5>
+                                                                                <a href="other-user-profile.html">John Smith</a> added a new photo. 
+                                                                                <span class="pull-right post-ellip-icon">
+                                                                                    <div class="dropdown">
+                                                                                        <a data-toggle="dropdown" type="button" class="public-btn dropdown-toggle" aria-expanded="true"><i class="fa fa-ellipsis-h"></i> </a>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><a class="edit-post" href="javascript:void(0)"><span class="fa fa-eye-slash fa-fw"></span> Hide </a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <span><i class="fa fa-globe"></i> 35 min ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="noti-mini">
+                                                                        <div class="noti-img">
+                                                                            <img src="img/profile2.jpg" class="img-responsive" />
+                                                                        </div>
+                                                                        <div class="noti-desc">
+                                                                            <h5>
+                                                                                <a href="other-user-profile.html">Tony Stark </a> Commented on <a href="other-user-profile.html"> John Smith </a>'s Post .
+                                                                                <span class="pull-right post-ellip-icon">
+                                                                                    <div class="dropdown">
+                                                                                        <a data-toggle="dropdown" type="button" class="public-btn dropdown-toggle" aria-expanded="true"><i class="fa fa-ellipsis-h"></i> </a>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><a class="edit-post" href="javascript:void(0)"><span class="fa fa-eye-slash fa-fw"></span> Hide </a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <span><i class="fa fa-globe"></i> 1 hrs ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <a class="see-all-notify" href="notifications.html">See All</a>
+
+                                                            </div>
+                                                        </li>
+                                                        <li class="dash-li-top"><a href="javascript:void(0)"><img src="img/profile3.jpg" class="img-responsive" /> <span></span> <i class="fa fa-caret-down"></i> <span class="onlin-icn"></span> </a>
+                                                            <ul class="top-dropdwn-ul top-dashmain-li">
+                                                                <li>Your Account </li>
+                                                                <li><a href="profile.html"><span><i class="fa fa-user fa-fw"></i></span>Profile</a></li>
+                                                                <li><a href="settings.html"><span><i class="fa fa-cogs fa-fw"></i></span>Settings</a></li>
+                                                                <li><a href="javascript:void(0)"><span><i class="fa fa-sign-out fa-fw"></i></span>Logout</a></li>
+                                                                <li class="chat-set-li">Chat Setting</li>
+                                                                <li><a href="javascript:void(0)"><span><i class="fa fa-circle gren-online fa-fw"></i></span>Online</a></li>
+                                                                <li><a href="javascript:void(0)"><span><i class="fa fa-circle red-ofline fa-fw"></i></span>Offline</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+        </header>
+
+        <!-- Toggle at 767px -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+            <div class="side-img">
+                <img src="img/profile3.jpg" class="img-responsive" />
+                <p class="name-prfl"> John Smith </p>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+            </div>
+            <div class="sidebar-listing">
+                <ul>
+                    <li><a href="dashboard.html"><span><i class="fa fa-tachometer fa-fw"></i></span> iHelp Feed </a></li>
+                    <li><a href="my-requests.html"><span><i class="fa fa-handshake-o fa-fw"></i></span> Help Requested </a></li>
+                    <li class="help-prvd-li active"><a href="help-provided.html"><span> <img src="img/hand-flld.png" class="img-responsive hnd-fld-icon" /> <img src="img/hand-flld-clr.png" class="img-responsive hnd-fld-clr" /> </span>  Help Provided </a></li>
+                    <li>
+                        <a href="save-requests.html"><span><i class="fa fa-floppy-o fa-fw"></i></span> Saved Requests </a>
+                    </li>
+                    <li><a href="pending-ihelps.html"><span><i class="fa fa-hourglass-1 fa-fw"></i></span> Pending iHelps </a></li>
+                    <li><a href="help-invitation.html"><span><i class="fa fa-envelope-open fa-fw"></i></span> Help Invitation </a></li>
+                    <li><a href="followers.html"><span><i class="fa fa-user-plus fa-fw"></i></span> Followers </a></li>
+                    <li><a href="transactions.html"><span><i class="fa fa-usd fa-fw"></i></span>  Transactions </a></li>
+                    <li><a href="refer-friend.html"><span><i class="fa fa-gift fa-fw gift-icon"></i></span> Refer a Friend </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Toggle at 767px end  -->
+
+        <section class="dashboard-main">
+            <div class="dashboard-min">
+                <div class="page-sidebar-wrapper">
+                    <div class="dash-sidebar">
+                        <div class="side-img">
+                            <img src="img/profile3.jpg" class="img-responsive" />
+                            <p class="name-prfl"> John Smith </p>
+                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                        </div>
+                        <div class="sidebar-listing">
+                            <ul>
+                                <li><a href="dashboard.html"><span><i class="fa fa-tachometer fa-fw"></i></span> iHelp Feed </a></li>
+                                <li><a href="my-requests.html"><span><i class="fa fa-handshake-o fa-fw"></i></span> Help Requested </a></li>
+                                <li class="help-prvd-li active"><a href="help-provided.html"><span> <img src="img/hand-flld.png" class="img-responsive hnd-fld-icon" /> <img src="img/hand-flld-clr.png" class="img-responsive hnd-fld-clr" /> </span>  Help Provided </a></li>
+                                <li>
+                                    <a href="save-requests.html"><span><i class="fa fa-floppy-o fa-fw"></i></span> Saved Requests </a>
+                                </li>
+                                <li><a href="pending-ihelps.html"><span><i class="fa fa-hourglass-1 fa-fw"></i></span> Pending iHelps </a></li>
+                                <li><a href="help-invitation.html"><span><i class="fa fa-envelope-open fa-fw"></i></span> Help Invitation </a></li>
+                                <li><a href="followers.html"><span><i class="fa fa-user-plus fa-fw"></i></span> Followers </a></li>
+                                <li><a href="transactions.html"><span><i class="fa fa-usd fa-fw"></i></span>  Transactions </a></li>
+                                <li><a href="refer-friend.html"><span><i class="fa fa-gift fa-fw gift-icon"></i></span> Refer a Friend </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content-wrapper">
+                    <div class="page-content">
+                        <div class="dashboard-contnt">
+                            <div class="dash-main">
+                                <div class="col-md-8 col-sm-8 col-xs-8 order1">
+                                    <div class="dash-main-cntnt">
+                                        <div class="help-request">
+                                            <div class="internal-heading">
+                                                <h3>Help Provided</h3>
+                                            </div>
+                                            <div class="dash-help-request">
+                                                <div class="help-cntnt-main">
+                                                    <div class="row">
+                                                        <div class="col-md-12 col-sm-12 col-xs-12 main-help-list">
+                                                            <div class="help-listing">
+                                                                <div class="help-desc">
+                                                                    <div class="post-req-img">
+                                                                        <img src="img/profile3.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="post-tile-main">
+                                                                        <h3>
+                                                                            Step by step : Building your own lab on windows server 2017 
+                                                                            <span class="pull-right edit-delte">
+                                                                                <div class="dropdown">
+                                                                                    <a class="public-btn dropdown-toggle" type="button" data-toggle="dropdown"> <i class="fa fa-ellipsis-h"></i> </a>
+                                                                                    <ul class="dropdown-menu">
+                                                                                        <li><a href="javascript:void(0)" class="edit-post"><span class="fa fa-edit fa-fw"></span>Edit Post</a></li>
+                                                                                        <li><a href="javascript:void(0)" class="trash-post" ><span class="fa fa-trash fa-fw"></span>Delete Post</a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </span>
+                                                                        </h3>
+                                                                        <p class="post-in-time">Posten in : <span> <a href="javascript:void(0)"> IT & Technology </a> </span> on <span> 27 Oct, 2017</span> <a href="javascript:void(0)" data-toggle="tooltip" title="Public"><i class="fa fa-globe"></i></a></p>
+                                                                    </div>
+                                                                    
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                                        consequat. 
+                                                                    </p>
+                                                                    <div class="help-social">
+                                                                        <ul>
+                                                                            <li><i class="fa fa-map-marker fa-fw"></i> Location :<span> Melbourne, Australia </span> </li>
+                                                                            <li class="reward-clr"><i class="fa fa-money fa-fw"></i> Reward : <span>56 $ </span></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="request-img">
+                                                                        <img src="img/banner2.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="edit-trash">
+                                                                        <ul>
+                                                                            <li> 
+                                                                                <a href="javascript:void(0)" class="share-comnt offer-a">    
+                                                                                    <ul class="wrap-section-av">
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile1.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile2.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <span class="nub"> 7 Helpers </span>
+                                                                                    </ul>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li> <a class="btn share-comnt comm-a" href="javascript:void(0)"> <i class="fa fa-commenting-o fa-fw"></i> 10 Comments </a> </li>
+                                                                            <li>
+                                                                            <li>
+                                                                                <ul class="share">
+                                                                                    <li class="icon-div">
+                                                                                        <a class="share-btn-icon" href="javascript:void(0);"><i class="fa fa-share fa-fw"></i>4</a>
+                                                                                    </li>
+                                                                                    <li class="share-text">
+                                                                                        <a href="javascript:void(0)" class="btn share-btn">  Share </a> 
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li class="pull-right mark-resolve-li"> <a class="mark-solve btn slution-btn" href="javascript:void(0)"><span>Solved <i class="fa fa-check"></i></span></a> </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 col-sm-12 col-xs-12 main-help-list">
+                                                            <div class="help-listing">
+                                                                <div class="help-desc">
+                                                                    <div class="post-req-img">
+                                                                        <img src="img/profile3.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="post-tile-main">
+                                                                        <h3>
+                                                                            Step by step : Building your own lab on windows server 2017 
+                                                                            <span class="pull-right edit-delte">
+                                                                                <div class="dropdown">
+                                                                                    <a class="public-btn dropdown-toggle" type="button" data-toggle="dropdown"> <i class="fa fa-ellipsis-h"></i> </a>
+                                                                                    <ul class="dropdown-menu">
+                                                                                        <li><a href="javascript:void(0)" class="edit-post"><span class="fa fa-edit fa-fw"></span>Edit Post</a></li>
+                                                                                        <li><a href="javascript:void(0)" class="trash-post" ><span class="fa fa-trash fa-fw"></span>Delete Post</a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </span>
+                                                                        </h3>
+                                                                        <p class="post-in-time">Posten in : <span> <a href="javascript:void(0)"> IT & Technology </a> </span> on <span> 27 Oct, 2017</span> <a href="javascript:void(0)" data-toggle="tooltip" title="Public"><i class="fa fa-globe"></i></a></p>
+                                                                    </div>
+                                                                    
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                                        consequat. 
+                                                                    </p>
+                                                                    <div class="help-social">
+                                                                        <ul>
+                                                                            <li><i class="fa fa-map-marker fa-fw"></i> Location :<span> Melbourne, Australia </span> </li>
+                                                                            <li class="reward-clr"><i class="fa fa-money fa-fw"></i> Reward : <span>56 $ </span></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="request-img">
+                                                                        <img src="img/banner2.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="edit-trash">
+                                                                        <ul>
+                                                                            <li> 
+                                                                                <a href="javascript:void(0)" class="share-comnt offer-a">    
+                                                                                    <ul class="wrap-section-av">
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile1.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile2.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <span class="nub"> 7 Helpers </span>
+                                                                                    </ul>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li> <a class="btn share-comnt comm-a" href="javascript:void(0)"> <i class="fa fa-commenting-o fa-fw"></i> 10 Comments </a> </li>
+                                                                            <li>
+                                                                                <ul class="share">
+                                                                                    <li class="icon-div">
+                                                                                        <a class="share-btn-icon" href="javascript:void(0);"><i class="fa fa-share fa-fw"></i>4</a>
+                                                                                    </li>
+                                                                                    <li class="share-text">
+                                                                                        <a href="javascript:void(0)" class="btn share-btn">  Share </a> 
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                             <li class="pull-right mark-resolve-li"> <a class="mark-solve btn slution-btn" href="javascript:void(0)"><span>Solved <i class="fa fa-check"></i></span></a> </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 col-sm-12 col-xs-12 main-help-list">
+                                                            <div class="help-listing">
+                                                                <div class="help-desc">
+                                                                    <div class="post-req-img">
+                                                                        <img src="img/profile3.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="post-tile-main">
+                                                                        <h3>
+                                                                            Step by step : Building your own lab on windows server 2017 
+                                                                            <span class="pull-right edit-delte">
+                                                                                <div class="dropdown">
+                                                                                    <a class="public-btn dropdown-toggle" type="button" data-toggle="dropdown"> <i class="fa fa-ellipsis-h"></i> </a>
+                                                                                    <ul class="dropdown-menu">
+                                                                                        <li><a href="javascript:void(0)" class="edit-post"><span class="fa fa-edit fa-fw"></span>Edit Post</a></li>
+                                                                                        <li><a href="javascript:void(0)" class="trash-post" ><span class="fa fa-trash fa-fw"></span>Delete Post</a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </span>
+                                                                        </h3>
+                                                                        <p class="post-in-time">Posten in : <span> <a href="javascript:void(0)"> IT & Technology </a> </span> on <span> 27 Oct, 2017</span> <a href="javascript:void(0)" data-toggle="tooltip" title="Public"><i class="fa fa-globe"></i></a></p>
+                                                                    </div>
+                                                                    
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                                        consequat. 
+                                                                    </p>
+                                                                    <div class="help-social">
+                                                                        <ul>
+                                                                            <li><i class="fa fa-map-marker fa-fw"></i> Location :<span> Melbourne, Australia </span> </li>
+                                                                            <li class="reward-clr"><i class="fa fa-money fa-fw"></i> Reward : <span>56 $ </span></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="request-img">
+                                                                        <img src="img/banner2.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="edit-trash">
+                                                                        <ul>
+                                                                            <li> 
+                                                                                <a href="javascript:void(0)" class="share-comnt offer-a">    
+                                                                                    <ul class="wrap-section-av">
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile1.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile2.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <span class="nub"> 7 Helpers </span>
+                                                                                    </ul>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li> <a class="btn share-comnt comm-a" href="javascript:void(0)"> <i class="fa fa-commenting-o fa-fw"></i> 10 Comments </a> </li>
+                                                                            <li>
+                                                                                <ul class="share">
+                                                                                    <li class="icon-div">
+                                                                                        <a class="share-btn-icon" href="javascript:void(0);"><i class="fa fa-share fa-fw"></i>4</a>
+                                                                                    </li>
+                                                                                    <li class="share-text">
+                                                                                        <a href="javascript:void(0)" class="btn share-btn">  Share </a> 
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li class="pull-right mark-resolve-li"> <a class="mark-solve btn slution-btn" href="javascript:void(0)"><span>Solved <i class="fa fa-check"></i></span></a> </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 col-sm-12 col-xs-12 main-help-list">
+                                                            <div class="help-listing">
+                                                                <div class="help-desc">
+                                                                    <div class="post-req-img">
+                                                                        <img src="img/profile3.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="post-tile-main">
+                                                                        <h3>
+                                                                            Step by step : Building your own lab on windows server 2017 
+                                                                            <span class="pull-right edit-delte">
+                                                                                <div class="dropdown">
+                                                                                    <a class="public-btn dropdown-toggle" type="button" data-toggle="dropdown"> <i class="fa fa-ellipsis-h"></i> </a>
+                                                                                    <ul class="dropdown-menu">
+                                                                                        <li><a href="javascript:void(0)" class="edit-post"><span class="fa fa-edit fa-fw"></span>Edit Post</a></li>
+                                                                                        <li><a href="javascript:void(0)" class="trash-post" ><span class="fa fa-trash fa-fw"></span>Delete Post</a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </span>
+                                                                        </h3>
+                                                                        <p class="post-in-time">Posten in : <span> <a href="javascript:void(0)"> IT & Technology </a> </span> on <span> 27 Oct, 2017</span> <a href="javascript:void(0)" data-toggle="tooltip" title="Public"><i class="fa fa-globe"></i></a></p>
+                                                                    </div>
+                                                                    
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                                        consequat. 
+                                                                    </p>
+                                                                    <div class="help-social">
+                                                                        <ul>
+                                                                            <li><i class="fa fa-map-marker fa-fw"></i> Location :<span> Melbourne, Australia </span> </li>
+                                                                            <li class="reward-clr"><i class="fa fa-money fa-fw"></i> Reward : <span>56 $ </span></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="request-img">
+                                                                        <img src="img/banner2.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="edit-trash">
+                                                                        <ul>
+                                                                            <li> 
+                                                                                <a href="javascript:void(0)" class="share-comnt offer-a">    
+                                                                                    <ul class="wrap-section-av">
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile1.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile2.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <span class="nub"> 7 Helpers </span>
+                                                                                    </ul>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li> <a class="btn share-comnt comm-a" href="javascript:void(0)"> <i class="fa fa-commenting-o fa-fw"></i> 10 Comments </a> </li>
+                                                                            <li>
+                                                                                <ul class="share">
+                                                                                    <li class="icon-div">
+                                                                                        <a class="share-btn-icon" href="javascript:void(0);"><i class="fa fa-share fa-fw"></i>4</a>
+                                                                                    </li>
+                                                                                    <li class="share-text">
+                                                                                        <a href="javascript:void(0)" class="btn share-btn">  Share </a> 
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li class="pull-right mark-resolve-li"> <a class="mark-solve btn slution-btn" href="javascript:void(0)"><span>Solved <i class="fa fa-check"></i></span></a> </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 col-sm-12 col-xs-12 main-help-list">
+                                                            <div class="help-listing">
+                                                                <div class="help-desc">
+                                                                    <div class="post-req-img">
+                                                                        <img src="img/profile3.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="post-tile-main">
+                                                                        <h3>
+                                                                            Step by step : Building your own lab on windows server 2017 
+                                                                            <span class="pull-right edit-delte">
+                                                                                <div class="dropdown">
+                                                                                    <a class="public-btn dropdown-toggle" type="button" data-toggle="dropdown"> <i class="fa fa-ellipsis-h"></i> </a>
+                                                                                    <ul class="dropdown-menu">
+                                                                                        <li><a href="javascript:void(0)" class="edit-post"><span class="fa fa-edit fa-fw"></span>Edit Post</a></li>
+                                                                                        <li><a href="javascript:void(0)" class="trash-post" ><span class="fa fa-trash fa-fw"></span>Delete Post</a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </span>
+                                                                        </h3>
+                                                                        <p class="post-in-time">Posten in : <span> <a href="javascript:void(0)"> IT & Technology </a> </span> on <span> 27 Oct, 2017</span> <a href="javascript:void(0)" data-toggle="tooltip" title="Public"><i class="fa fa-globe"></i></a></p>
+                                                                    </div>
+                                                                    
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                                        consequat. 
+                                                                    </p>
+                                                                    <div class="help-social">
+                                                                        <ul>
+                                                                            <li><i class="fa fa-map-marker fa-fw"></i> Location :<span> Melbourne, Australia </span> </li>
+                                                                            <li class="reward-clr"><i class="fa fa-money fa-fw"></i> Reward : <span>56 $ </span></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="request-img">
+                                                                        <img src="img/banner2.jpg" class="img-responsive" />
+                                                                    </div>
+                                                                    <div class="edit-trash">
+                                                                        <ul>
+                                                                            <li> 
+                                                                                <a href="javascript:void(0)" class="share-comnt offer-a">    
+                                                                                    <ul class="wrap-section-av">
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile1.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <li class="img-1 common-clas">
+                                                                                            <img src="img/profile2.jpg" alt="avatar-img">
+                                                                                        </li>
+                                                                                        <span class="nub"> 7 Helpers </span>
+                                                                                    </ul>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li> <a class="btn share-comnt comm-a" href="javascript:void(0);"> <i class="fa fa-commenting-o fa-fw"></i> 10 Comments </a> </li>
+                                                                            <li>
+                                                                                <ul class="share">
+                                                                                    <li class="icon-div">
+                                                                                        <a class="share-btn-icon" href="javascript:void(0);"><i class="fa fa-share fa-fw"></i>4</a>
+                                                                                    </li>
+                                                                                    <li class="share-text">
+                                                                                        <a href="javascript:void(0)" class="btn share-btn">  Share </a> 
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li class="pull-right mark-resolve-li"> <a class="mark-solve btn slution-btn" href="javascript:void(0)"><span>Solved <i class="fa fa-check"></i></span></a> </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4 order2">
+                                    <div class="dash-right-contnt">
+                                        <div class="totl-balance">
+                                            <h3> My Activity </h3>
+                                            <div class="totl-ststics">
+                                                <ul>
+                                                    <li>
+                                                        <p class="m-0">Ask help</p>
+                                                        <div class="progress-wrap progress" data-progress-percent="50">
+                                                            <div class="progress-bar progress">
+                                                                <span class="asked-span">20 Paid</span>
+                                                            </div>
+                                                            <span class="solved-span">23 Free</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Offer help</p>
+                                                        <div class="progress-wrap prges-lgtblu progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress">
+                                                                <span class="asked-span">13 Paid</span>
+                                                            </div>
+                                                            <span class="solved-span">19 Free</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Profile</p>
+                                                        <div class="progress-wrap prges-orange progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress"></div>
+                                                            <span class="solved-span">50% Completion</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Total Balance</p>
+                                                        <div class="progress-wrap prges-lgtgrn progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress"></div>
+                                                            <span class="solved-span">$ 1,25,148</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Available Balance</p>
+                                                        <div class="progress-wrap prges-green progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress"></div>
+                                                            <span class="solved-span">$ 95,148</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="help-nearby">
+                                            <h3>Helps Nearby You </h3>
+                                            <div class="nearby-cntnt">
+                                                <div class="nerby-who">
+                                                    <img src="img/profile.jpg" class="img-responsive" />
+                                                </div>
+                                                <div class="nerby-name">
+                                                    <h4>
+                                                        <a href="other-user-profile.html"> William James </a>
+                                                        <span class="pull-right">
+                                                            <div class="nerby-add">
+                                                                <a class="follow-p" href="other-user-profile.html">Open</a>
+                                                            </div>
+                                                        </span>
+                                                    </h4>
+                                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span class="rate-clr"> 5.0</span></span>
+                                                    <p><i class="fa fa-map-marker"></i> New York (USA), 10 min ago</p>
+                                                </div>
+                                                <div class="nerby-title">
+                                                    <div class="nerby-cntn">
+                                                        <a href="javascript:void(0)">Lorem ipsum is a dummy text</a>
+                                                        <p>Lorem ipsum dolor sit amet do esmod
+                                                            tempor incidit ut labore et dolore magna aliqua. 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nearby-cntnt">
+                                                <div class="nerby-who">
+                                                    <img src="img/profile.jpg" class="img-responsive" />
+                                                </div>
+                                                <div class="nerby-name">
+                                                    <h4>
+                                                        <a href="other-user-profile.html"> William James </a>
+                                                        <span class="pull-right">
+                                                            <div class="nerby-add">
+                                                                <a class="follow-p" href="other-user-profile.html">Open</a>
+                                                            </div>
+                                                        </span>
+                                                    </h4>
+                                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span class="rate-clr"> 5.0</span></span>
+                                                    <p> <i class="fa fa-map-marker"></i> New York (USA), 10 min ago</p>
+                                                </div>
+                                                <div class="nerby-title">
+                                                    <div class="nerby-cntn">
+                                                        <a href="javascript:void(0)">Lorem ipsum is a dummy text</a>
+                                                        <p>Lorem ipsum dolor sit amet do esmod
+                                                            tempor incdunt ut labore et dolore magna aliqua. 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="follows-main">
+                                            <h3>Suggested Follows </h3>
+                                            <div class="nearby-cntnt">
+                                                <div class="suggest-frnd">
+                                                    <div class="nerby-who">
+                                                        <img src="img/profile.jpg" class="img-responsive" />
+                                                    </div>
+                                                    <div class="nerby-name follow-name nerby-right">
+                                                        <h4>
+                                                            <a href="other-user-profile.html"> William James </a>
+                                                            <span class="pull-right">
+                                                                <div class="nerby-add">
+                                                                    <span class="follow-p">Follow</span>
+                                                                </div>
+                                                            </span>
+                                                        </h4>
+                                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                                                        <ul>
+                                                            <li> <span class="fa fa-map-marker fa-fw"></span> New York (USA)</li>
+                                                            <li> <span class="fa fa-briefcase fa-fw"></span> Product Manager </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nearby-cntnt">
+                                                <div class="suggest-frnd">
+                                                    <div class="nerby-who">
+                                                        <img src="img/profile.jpg" class="img-responsive" />
+                                                    </div>
+                                                    <div class="nerby-name follow-name nerby-right">
+                                                        <h4>
+                                                            <a href="other-user-profile.html"> William James </a>
+                                                            <span class="pull-right">
+                                                                <div class="nerby-add">
+                                                                    <span class="follow-p">Follow</span>
+                                                                </div>
+                                                            </span>
+                                                        </h4>
+                                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                                                        <ul>
+                                                            <li> <span class="fa fa-map-marker fa-fw"></span> New York (USA)</li>
+                                                            <li> <span class="fa fa-briefcase fa-fw"></span> Product Manager </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nearby-cntnt">
+                                                <div class="suggest-frnd">
+                                                    <div class="nerby-who">
+                                                        <img src="img/profile.jpg" class="img-responsive" />
+                                                    </div>
+                                                    <div class="nerby-name follow-name nerby-right">
+                                                        <h4>
+                                                            <a href="other-user-profile.html"> William James </a>
+                                                            <span class="pull-right">
+                                                                <div class="nerby-add">
+                                                                    <span class="follow-p">Follow</span>
+                                                                </div>
+                                                            </span>
+                                                        </h4>
+                                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                                                        <ul>
+                                                            <li> <span class="fa fa-map-marker fa-fw"></span> New York (USA)</li>
+                                                            <li> <span class="fa fa-briefcase fa-fw"></span> Product Manager </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="social-dash-link">
+                                            <ul>
+                                                <li> <a href="browse-list-page.html"> Browse Categories </a> </li>
+                                                <li> <a href="sitemap.html"> Sitemap </a> </li>
+                                                <li> <a href="terms.html"> Terms Conditions </a> </li>
+                                                <li> <a href="privacy.html"> Privacy Policy </a> </li>
+                                            </ul>
+                                            <p>Copyright &copy; Babzer | All Rights Reserved</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <!-- ihelp list modal -->
+    <div class="modal fade" id="ihelplistmodal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">iHelpers List</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="ihelp-main">
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile3.jpg">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> John Doe </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                            <div class="offer-desc">
+                                <p> <i class="fa fa-money fa-fw"></i> Offered Price :  <span>$ 56 </span> </p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile.jpg">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> John Smith </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                            <div class="offer-desc">
+                                <p> <i class="fa fa-money fa-fw"></i> Offered Price :  <span>$ 56 </span> </p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile1.jpg">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> William James </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                            <div class="offer-desc">
+                                <p> <i class="fa fa-money fa-fw"></i> Offered Price :  <span>$ 56 </span> </p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile2.jpg">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> Tony Stark </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                            <div class="offer-desc">
+                                <p> <i class="fa fa-money fa-fw"></i> Offered Price :  <span>$ 56 </span> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- ihelp list modal -->
+    <div class="modal fade" id="comments-modal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Comments List</h4>
+                </div>
+                <div class="modal-body" style="display:inline-block">
+                    <div class="ihelp-main">
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile3.jpg">
+                            </div>
+                            <div class="offers-user-dtl comment-dev">
+                                <h3><a href="other-user-profile.html"> John Doe </a><span class="date-t">1 Day ago</span></h3>
+                                <p class="des-com">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile.jpg">
+                            </div>
+                            <div class="offers-user-dtl comment-dev">
+                                <h3><a href="other-user-profile.html"> John Doe </a><span class="date-t">1 Day ago</span></h3>
+                                <p class="des-com">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile1.jpg">
+                            </div>
+                            <div class="offers-user-dtl comment-dev">
+                                <h3><a href="other-user-profile.html"> John Doe </a><span class="date-t">1 Day ago</span></h3>
+                                <p class="des-com">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img class="img-responsive" src="img/profile2.jpg">
+                            </div>
+                            <div class="offers-user-dtl comment-dev">
+                                <h3><a href="other-user-profile.html"> John Doe </a><span class="date-t">1 Day ago</span></h3>
+                                <p class="des-com">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- ask help Modal -->
+    <div class="modal fade" id="askhelpmodal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Ask Help Request</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="ask-help-mdl">
+                        <div class="dash-post">
+                            <form>
+                                <div class="">
+                                    <div class="big-login-brdr">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 p-0">
+                                            <!-- <div class="col-md-3 col-sm-3 col-xs-4 p-0">
+                                                <div class="title-label">
+                                                    <p> Write a Help Request </p>
+                                                </div>
+                                            </div> -->
+                                            <div class="col-md-12 col-sm-12 col-xs-8 custome-color">
+                                                <input type="text" class="form-control post-title txtfield" placeholder="Do you need help today, John?" name="">
+                                            </div>
+                                        </div>
+                                        <div class="divdr"></div>
+                                        
+                                        <div class="hide-field-contnt">
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <textarea type="text" class="form-control textarea resize-txt txtfield" placeholder="Describe in a few words your help request" rows="2"></textarea>
+                                            </div>
+                                            <div class="divdr"></div>
+                                            <div class="col-md-3 col-sm-4 col-xs-12 pds-lft">
+                                                <div class="select-style brdr-cls selct-categ">
+                                                    <select class="form-control txtfield">
+                                                        <option> Select Category </option>
+                                                        <option> Medical &amp; Health </option>
+                                                        <option> Lost &amp; Found </option>
+                                                        <option> Advice &amp; Informaton </option>
+                                                        <option> Food &amp; Fun </option>
+                                                        <option> IT &amp; Technology </option>
+                                                        <option> Wellness &amp; Relaxation </option>
+                                                        <option> Study &amp; Work </option>
+                                                        <option> Transportation &amp; Cars </option>
+                                                        <option> Pets &amp; Such </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 col-xs-12 lbl-pds hdlo-pas">
+                                                <div class="check-dash professional brdr-cls">
+                                                    <label class="col-md-8 col-sm-6 col-xs-12 p-0 prof-width"><i class="fa fa-briefcase "></i> Professional ?</label>
+                                                    <div class="col-md-4 col-sm-6 col-xs-12 p-0 check-cus">
+                                                        <div class="yes-chck">
+                                                            <label class="checkbox-inline">
+                                                                <input type="checkbox" value="option1"> Yes
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-3 col-sm-6 col-xs-12 lbl-pds rewrd-width">
+                                                <div class="full-brdr">
+                                                    <div class="brdr-cls">
+                                                        <label class="col-md-8 col-sm-6 col-xs-12 p-0"> <i class="fa fa-money"></i> reward ?</label>
+                                                        <div class="col-md-4 col-sm-6 col-xs-12 p-0">
+                                                            <div class="yes-chck rewrd-yes">
+                                                                <label class="checkbox-inline">
+                                                                    <input type="checkbox" class="usd-check"> Yes
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-6 col-xs-12 lbl-pds p-0 usd-div">
+                                                <div class="hidden-usd" style="display: none;">
+                                                    <input type="text" placeholder="(In USD)" class="form-control txtfield" name="">
+                                                </div>
+                                            </div>
+                                            <div class="divdr"></div>
+                                            
+                                            <div class="col-md-12 col-sm-12 col-xs-12 lbl-pds">
+                                                <div class="full-brdr">
+                                                    <div class="brdr-cls">
+                                                        <label class="col-md-3 col-sm-3 col-xs-12"> <i class="fa fa-clock-o"></i> When ?</label>
+                                                        <div class="col-md-9 col-sm-9 col-xs-12 p-0">
+                                                            <input type="text" class="form-control txtfield" id="daterange" value="02/11/2017 1:30 PM - 01/2/2018 2:00 PM">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="divdr"></div>
+                                            <div class="col-md-12 col-sm-12 col-xs-12 lbl-pds where-lbl ">
+                                                <label class="col-md-3 col-sm-3 col-xs-12"> <i class="fa fa-map-marker"></i> Where ?</label>
+                                                <div class="col-md-9 col-sm-9 col-xs-12 p-0">
+                                                    <input type="text" placeholder="" class="form-control txtfield" name="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 p-0">
+                                        <div class="post-cmntss req-post">
+                                            <div class="gallery"></div>
+                                            <div class="post-btns">
+                                                <ul>
+                                                    <li>
+                                                        <a href="javascript:void(0)"><span><i class="fa fa-camera fa-fw"></i></span>
+                                                            <input type="file" class="gallery-photo-add" name="" multiple="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)"><span><i class="fa fa-video-camera fa-fw"></i></span>
+                                                            <input type="file" class="gallery-photo-add" name="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dropdown">
+                                                            <button class="btn cus-btn public-btn dropdown-toggle" type="button" data-toggle="dropdown"> <i class="fa fa-globe"></i> Public <i class="fa fa-caret-down"></i> </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:void(0)"><span class="fa fa-users fa-fw"></span>Private</a></li>
+                                                                <li><a href="javascript:void(0)"><span class="fa fa-lock fa-fw"></span>Me</a></li>
+                                                            </ul>
+                                                        </div> 
+                                                    </li>
+                                                </ul>
+                                                <ul class="post-right">
+                                                    
+                                                    <li>
+                                                        <a href="javascript:void(0)" id="post-request" class="btn cus-btn">Post</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- share list modal -->
+    <div role="dialog" id="sharelistmodal" class="modal fade">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button">x</button>
+                    <h4 class="modal-title">People who shared</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- <div class="share-now">
+                        <a href="javascript:void(0)" class="btn cus-btn share-now-btn"> Share Now </a>
+                    </div> -->
+                    <div class="ihelp-main">
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img src="img/profile3.jpg" class="img-responsive">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> John Doe </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img src="img/profile.jpg" class="img-responsive">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> John Smith </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img src="img/profile1.jpg" class="img-responsive">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> William James </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                        </div>
+                        <div class="offers-user">
+                            <div class="offer-usr-img">
+                                <img src="img/profile2.jpg" class="img-responsive">
+                            </div>
+                            <div class="offers-user-dtl">
+                                <h3><a href="other-user-profile.html"> Tony Stark </a><span class="user-rate"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0 </span></h3>
+                                <span>30 min ago</span>
+                                <p class="offer-by"><span> <i class="fa fa-briefcase fa-fw"></i> Project Manager</span> </p>
+                                <p> <i class="fa fa-map-marker fa-fw"></i> Location : <span> Melbourne, Australia </span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- share click on icon list modal -->
+    <div role="dialog" id="sharelistmodal2" class="modal fade">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button">x</button>
+                    <h4 class="modal-title">Post Share</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="share-all-post">
+                        <div class="dash-timelines">
+                            <div class="post-random-by">
+                                <div class="post-by-img">
+                                    <img src="img/profile3.jpg" class="img-responsive" />
+                                </div>
+                                <div class="post-by-name">
+                                    <h4> <a href="other-user-profile.html">John Smith </a> <span class="user-rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i> 4.5</span>
+                                        <span class="pull-right post-ellip-icon">
+                                            <div class="dropdown">
+                                                <a data-toggle="dropdown" type="button" class="public-btn dropdown-toggle" aria-expanded="true"><i class="fa fa-ellipsis-h"></i> </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="edit-post" href="javascript:void(0)"><span class="fa fa-eye-slash fa-fw"></span> Hide </a></li>
+                                                    <li><a class="trash-post report-btn" href="javascript:void(0)"><span class="fa fa-flag fa-fw"></span> Report Help Request</a></li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </h4>
+                                    <p>Ask Help in <a href="javascript:void(0)">IT & Technology</a></p>
+                                    <p class="time-p"><i class="fa fa-globe"></i> 19 min ago</p>
+                                </div>
+                            </div>
+                            <div class="post-randon-desc">
+                                <div class="post-contnt">
+                                    <h4>Lorem ipsum is a dummy text.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="post-share" style="text-align:right;">
+                        <div class="custom-share">
+                            <ul class="custom-ulp">
+                                 <li>
+                                    <div class="social-post">
+                                        <input type="checkbox" name="my-wall" value="wall"> 
+                                        <span class="my-wall-ic fa-fw">
+                                            <img src="img/timeline.svg" class="img-responsive">
+                                        </span>
+                                        My wall
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social-post">
+                                        <input type="checkbox" name="fb" value="Facebook">
+                                        <span class="fa fa-facebook fa-fw"></span>Facebook 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social-post">
+                                        <input type="checkbox" name="l" value="linkedin">
+                                        <span class="fa fa-linkedin fa-fw"></span>Linkedin 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social-post">
+                                        <input type="checkbox" name="t" value="Twitter">
+                                        <span class="fa fa-twitter fa-fw"></span>Twitter 
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="post-right right-share">
+                                <li>
+                                    <a href="javascript:void(0)" class="btn cus-btn share-now-btn"> Share Now </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Browse categories Modal -->
+    <div class="modal fade" id="browsecategmodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Browse Categories</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="browse-mdl-main">
+                        <ul>
+                            <li class="active">
+                                <a href="browse-categories.html">
+                                    <img class="mdl-categ" src="img/medical-health.png" alt="icon-brow">
+                                    <span>Medical &amp; Health </span>
+                                </a>
+                            </li>
+                            <li><a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/lost-found.png" alt="icon-brow">
+                                    <span>
+                                        Lost &amp; Found 
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/advice-information.png" alt="icon-brow">
+                                 <span>Advice &amp; Information </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/food-fun.png" alt="icon-brow">
+                                 <span>Food &amp; Fun </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/home.png" alt="icon-brow">
+                                 <span>Home &amp; Family </span>
+                                </a>
+                            </li>    
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/it&tech.png" alt="icon-brow">
+                                 <span>IT &amp; Technology </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/wellnes-relax.png" alt="icon-brow">
+                                 <span>Wellness &amp; Relaxation </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/shopping-.png" alt="icon-brow">
+                                 <span>Shopping &amp; Lending </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/sport.png" alt="icon-brow">
+                                 <span>Sports &amp; Recreational </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/study-work.png" alt="icon-brow">
+                                 <span>Study &amp; Work </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/transportsation.png" alt="icon-brow">
+                                 <span>Transportation &amp; Cars </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/delivery.png" alt="icon-brow">
+                                 <span>Deliveries &amp; Removals </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/travel.png" alt="icon-brow">
+                                 <span>Travel &amp; Accommodation </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/used-items.png" alt="icon-brow">
+                                 <span>Used Items &amp; Donations </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/valuen-teering.png" alt="icon-brow">
+                                 <span>Volunteering &amp; Assistance </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/pets-such.png" alt="icon-brow">
+                                 <span>Pets &amp; Such </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/events.png" alt="icon-brow">
+                                 <span>Events &amp; Entertainment </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browse-categories.html">
+                                <img class="mdl-categ" src="img/other.png" alt="icon-brow">   
+                                 <span>Others </span>   
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Reply Modal -->
+    <div class="modal fade" id="requestreplymodal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Solved Request</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="help-listing req-rply-desc">
+                        <div class="help-desc">
+                            <div class="post-req-img">
+                                <img class="img-responsive" src="img/profile3.jpg">
+                            </div>
+                            <div class="post-tile-main">
+                                <h3>
+                                    Step by step : Building your own lab on windows server 2017 
+                                </h3>
+                                <p class="post-in-time">Posten in : <span> <a href="javascript:void(0)"> IT &amp; Technology </a> </span> on <span> 27 Oct, 2017</span> <a title="" data-toggle="tooltip" href="javascript:void(0)" data-original-title="Public"><i class="fa fa-globe"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="request-form">
+                            <form>
+                                <div class="solved-requeist">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <div class="solved-img-pic">
+                                        <ul>
+                                            <li>
+                                                <img src="img/helpers.jpg" alt="img-select">
+                                            </li>
+                                            <li>
+                                                <img src="img/helpers.jpg" alt="img-select">
+                                            </li>
+                                            <li>
+                                                <img src="img/helpers.jpg" alt="img-select">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                    <a href="javascript:void(0)" data-dismiss="modal" class="btn cncl-btn"> Cancel </a>
+                                    <a href="javascript:void(0)" class="btn cus-btn"> Submit</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery-editable-select.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/daterangepicker.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+            if ($(window).scrollTop() >= 150) {
+               $('.navbar').addClass('fixed-header');
+            }
+            else {
+               $('.navbar').removeClass('fixed-header');
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).load(function(){
+            $('.loader-main').fadeOut('8000');
+        });
+    </script>
+    <script type="text/javascript">
+        $('.dropdown').on('show.bs.dropdown', function(e){
+            $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+        });
+
+        $('.dropdown').on('hide.bs.dropdown', function(e){
+          $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+        });
+    </script>
+    <script type="text/javascript">
+        $('#slide').editableSelect({ effects: 'slide' });
+    </script>
+    <!-- delete post script -->
+    <script type="text/javascript">
+        $('.trash-post').on('click', function () {
+            $(this).parents('.main-help-list').remove();
+        });
+
+        //modal khulega
+        /*$('.shar-popp').click(function () {
+            $('#sharelistmodal').modal('show');
+        });*/
+    </script>
+    <!-- delete post script end-->
+    <script type="text/javascript">
+        // on page load...
+        moveProgressBar();
+        // on browser resize...
+        $(window).resize(function() {
+            moveProgressBar();
+        });
+        
+        // SIGNATURE PROGRESS
+        function moveProgressBar() {
+          console.log("moveProgressBar");
+            var getPercent = ($('.progress-wrap').data('progress-percent') / 100);
+            var getProgressWrapWidth = $('.progress-wrap').width();
+            var progressTotal = getPercent * getProgressWrapWidth;
+            var animationLength = 2500;
+            
+            // on page load, animate percentage bar to data percentage length
+            // .stop() used to prevent animation queueing
+            $('.progress-bar').stop().animate({
+                left: progressTotal
+            }, animationLength);
+        }
+    </script>
+   
+    <script type="text/javascript">
+        $('.dash-alerts li').on('click',function(){
+            $(this).siblings('li').find('.top-dropdwn-active').removeClass('top-dropdwn-active');
+            $(this).find('.top-dashmain-li').addClass('top-dropdwn-active');
+        });
+        $('.dashboard-contnt').on('click',function(){   
+            $('.dash-alerts li').find('.top-dropdwn-active').removeClass('top-dropdwn-active');
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <script>
+        $('.toggle-cus-btn').on('click',function(){
+            $('#mySidenav').addClass('sidenav-active');
+        });
+        $('#mySidenav .closebtn').on('click',function(){
+           $('#mySidenav').removeClass('sidenav-active'); 
+        });
+    </script>
+    <script type="text/javascript">
+        $('.ask-help-li a').on('click',function(){
+            $('#askhelpmodal').modal('show');
+        });
+    </script>
+    <script type="text/javascript">
+        $('.offer-a').on('click',function(){
+            $('#ihelplistmodal').modal('show');
+        });
+    </script>
+     <script type="text/javascript">
+        $('.comm-a').on('click',function(){
+            $('#comments-modal').modal('show');
+        });
+    </script>
+    <script type="text/javascript">
+        $('.browse-mdl-btn').on('click',function(){
+            $('#browsecategmodal').modal('show');
+        });
+    </script>
+     <script type="text/javascript">
+        $('.slution-btn').on('click',function(){
+            $('#requestreplymodal').modal('show');
+        });
+    </script>
+    <script type="text/javascript">
+        $('.share-btn').on('click',function(){
+            $('#sharelistmodal2').modal('show');
+        });
+    </script>
+    <script type="text/javascript">
+        $('.share-btn-icon').on('click',function(){
+            $('#sharelistmodal').modal('show');
+        });
+    </script>
+</html>
+

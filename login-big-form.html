@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Babzer</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/fileinput.css">
+    <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/margins-min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive-style.css">
+
+
+</head>
+<body>
+
+<header class="header-main">
+	<div class="header-min">
+            <nav class="navbar nav-sec">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>                            
+                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" /></a>
+                            <span class="toggle-cus-btn"><i class="fa fa-bars"></i></span>
+                        </div>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="col-md-10 col-sm-10 col-xs-12">
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <div class="nav navbar-nav navbar-right navigation-ul animated fadeInDown">
+                                <div class="col-md-7 col-sm-6 col-xs-6">
+                                    <ul class="left-ul-top">
+                                        <li><a href="javascript:void(0)">Browse Helps </a></li>
+                                        <li><a href="#howit">How it Works </a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5 col-sm-6 col-xs-6">
+                                    <ul class="right-ul-top">
+                                        <li><a href="login.html">Login </a></li>
+                                        <li><a href="register.html">Sign Up </a></li>
+                                        <li class="ask-help-li"><a href="login-big-form.html" class="btn cus-btn">Ask Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+</header>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="javascript:void(0)">Browse Helps</a>
+    <a href="#howit">How it Works</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Sign Up</a>
+    <a href="login-big-form.html" class="ask-side-help">Ask help</a>
+</div>
+
+<section class="login-big-form">
+    <div class="container">
+        <div class="main-logged-cntnt">
+            <div class="main-login-mini">
+                <div class="main-login-form">
+                    <div class="dash-post">
+                        <form>
+                            <div class="">
+                                <div class="big-login-brdr">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 p-0">
+                                        <!-- <div class="col-md-3 col-sm-3 col-xs-4 p-0">
+                                            <div class="title-label">
+                                                <p> Write a Help Request </p>
+                                            </div>
+                                        </div> -->
+                                        <div class="col-md-12 col-sm-12 col-xs-8 custome-color">
+                                            <input type="text" class="form-control post-title txtfield" placeholder="Do you need help today, John?" name="">
+                                        </div>
+                                    </div>
+                                    <div class="divdr"></div>
+                                    
+                                    <div class="hide-field-contnt">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <textarea rows="2" placeholder="Describe in a few words your help request" class="form-control textarea resize-txt txtfield" type="text"></textarea>
+                                        </div>
+                                        <div class="divdr"></div>
+                                        <div class="col-md-3 col-sm-4 col-xs-12 pds-lft">
+                                            <div class="select-style brdr-cls selct-categ">
+                                                <select class="form-control txtfield">
+                                                    <option> Select Category </option>
+                                                    <option> Medical &amp; Health </option>
+                                                    <option> Lost &amp; Found </option>
+                                                    <option> Advice &amp; Informaton </option>
+                                                    <option> Food &amp; Fun </option>
+                                                    <option> IT &amp; Technology </option>
+                                                    <option> Wellness &amp; Relaxation </option>
+                                                    <option> Study &amp; Work </option>
+                                                    <option> Transportation &amp; Cars </option>
+                                                    <option> Pets &amp; Such </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 col-xs-12 lbl-pds hdlo-pas">
+                                            <div class="check-dash professional brdr-cls">
+                                                <label class="col-md-8 col-sm-6 col-xs-12 p-0 prof-width"><i class="fa fa-briefcase "></i> Professional ?</label>
+                                                <div class="col-md-4 col-sm-6 col-xs-12 p-0 check-cus">
+                                                    <div class="yes-chck">
+                                                        <label class="checkbox-inline">
+                                                            <input type="checkbox" value="option1"> Yes
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3 col-sm-6 col-xs-12 lbl-pds rewrd-width">
+                                            <div class="full-brdr">
+                                                <div class="brdr-cls">
+                                                    <label class="col-md-8 col-sm-6 col-xs-12 p-0"> <i class="fa fa-money"></i> reward ?</label>
+                                                    <div class="col-md-4 col-sm-6 col-xs-12 p-0">
+                                                        <div class="yes-chck rewrd-yes">
+                                                            <label class="checkbox-inline">
+                                                                <input type="checkbox" class="usd-check"> Yes
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-sm-6 col-xs-12 lbl-pds p-0 usd-div">
+                                            <div class="hidden-usd">
+                                                <input type="text" name="" class="form-control txtfield" placeholder="(In USD)">
+                                            </div>
+                                        </div>
+                                        <div class="divdr"></div>
+                                        
+                                        <div class="col-md-12 col-sm-12 col-xs-12 lbl-pds">
+                                            <div class="full-brdr">
+                                                <div class="brdr-cls">
+                                                    <label class="col-md-3 col-sm-3 col-xs-12"> <i class="fa fa-clock-o"></i> When ?</label>
+                                                    <div class="col-md-9 col-sm-9 col-xs-12 p-0">
+                                                        <input type="text" value="02/11/2017 1:30 PM - 01/2/2018 2:00 PM" id="daterange" class="form-control txtfield">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="divdr"></div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12 lbl-pds where-lbl ">
+                                            <label class="col-md-3 col-sm-3 col-xs-12"> <i class="fa fa-map-marker"></i> Where ?</label>
+                                            <div class="col-md-9 col-sm-9 col-xs-12 p-0">
+                                                <input type="text" name="" class="form-control txtfield" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 p-0">
+                                    <div class="post-cmntss req-post">
+                                        <div class="gallery"></div>
+                                        <div class="post-btns">
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)"><span><i class="fa fa-camera fa-fw"></i></span>
+                                                        <input type="file" multiple="" name="" class="gallery-photo-add">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)"><span><i class="fa fa-video-camera fa-fw"></i></span>
+                                                        <input type="file" name="" class="gallery-photo-add">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown">
+                                                        <button data-toggle="dropdown" type="button" class="btn cus-btn public-btn dropdown-toggle"><i class="fa fa-globe"></i> Public <i class="fa fa-caret-down"></i> </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="javascript:void(0)"><span class="fa fa-users fa-fw"></span>Private</a></li>
+                                                            <li><a href="javascript:void(0)"><span class="fa fa-lock fa-fw"></span>Me</a></li>
+                                                        </ul>
+                                                    </div> 
+                                                </li>
+                                            </ul>
+                                            <ul class="post-right">
+                                                <li>
+                                                    <a class="btn cus-btn" id="post-request" href="javascript:void(0)">Post</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-sec">
+    <div class="footer-one-sec">
+        <div class="container">
+            <div class="footer-links-outer">
+                <div class="row custom-row-10">
+                    <div class="col-lg-6 com-md-6 col-sm-7 col-xs-7 pad-10">
+                        <div class="left-links">
+                            <div class="row custom-row-6">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pad-6">
+                                    <div class="footer-links">
+                                        <h4 class="footer-links-head">Browse </h4>
+                                        <ul type="none">
+                                            <li><a href="javascript:void(0)"> Browse by Categories</a></li>
+                                            <li><a href="index.html#slider"> Getting Started</a></li>
+                                            <li><a href="index.html#howit"> How it woks</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pad-6">
+                                    <div class="footer-links">
+                                        <h4 class="footer-links-head">About Us </h4>
+                                        <ul type="none">
+                                            <li><a href="javascript:;"> What we Do ?</a></li>
+                                            <li><a href="javascript:;"> What we believe ?</a></li>
+                                            <li><a href="javascript:;"> Tell us what you think</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pad-6">
+                                    <div class="footer-links">
+                                        <h4 class="footer-links-head">Help & Contact Us</h4>
+                                        <ul type="none">
+                                            <li><a href="faq.html"> FAQ</a></li>
+                                            <li><a href="contact.html"> Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lang-btn">
+                                <ul role="navigation" class="nav country-nav">
+                                    <li class="dropdown">
+                                        <a aria-expanded="false" data-toggle="dropdown" class="dropdown-toggle" role="button" href="javascript:;">
+                                            <span class="form-control control-form appnd-cntry-nm btn cus-btn"><span class="htnl_chak "><img alt="Canadian Flag" class="img-responsive" src="img/united-states.svg">English</span> </span>
+                                            <span class="fa fa-caret-down"></span>
+                                        </a>
+                                        <input type="hidden" value="CA" id="country_code" name="Users[0][country_code]" class="xyz">
+                                        <ul role="menu" class="dropdown-menu cntry-lst-wth-flg">
+                                            <li role="presentation" rel="CA" class="country-cls"><span class="htnl_chak "><img alt="Canadian Flag" class="img-responsive" src="img/united-states.svg">English</span></li>
+                                            <li role="presentation" rel="US" class="country-cls"><span class="htnl_chak"><img alt="American Flag" class="img-responsive" src="img/france.svg">French</span></li>
+                                            <li role="presentation" rel="US" class="country-cls"><span class="htnl_chak"><img alt="American Flag" class="img-responsive" src="img/italy.svg">Italy</span></li>
+                                            <li role="presentation" rel="US" class="country-cls"><span class="htnl_chak"><img alt="American Flag" class="img-responsive" src="img/german.png">German</span></li>
+                                            <li role="presentation" rel="US" class="country-cls"><span class="htnl_chak"><img alt="American Flag" class="img-responsive" src="img/spain.svg">Spanish</span></li>
+                                            <li role="presentation" rel="US" class="country-cls"><span class="htnl_chak"><img alt="American Flag" class="img-responsive" src="img/romania.svg">Romania</span></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-5 col-xs-5 pad-10">
+                        <div class="footer-link-right">
+                            <div class="row custom-row">
+                                <div class="col-md-12 col-sm-12 pad-6">
+                                   <h4 class="m-t-0">Enjoy Our Mobile Apps </h4>
+                                    <div class="social-share-links">
+                                        <ul>
+                                            <li><a href="javascript:;" class="ios-img"><img src="img/ios.png" class="img-responsive" /></a></li>
+                                            <li><a href="javascript:;" class="anddoid-img"><img src="img/android.png" class="img-responsive" /></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row custom-row">
+                                    <div class="col-sm-12 pad-6">
+                                        <div class="newslettr-form-outer">
+                                            <form >
+                                                <h2>Sign up for latest updates!</h2>
+                                                <div class="form-group newsletter-subs">  
+                                                    <input type="email" name="subscribe" placeholder="Your Email Address" class="form-control">
+                                                    <button type="button" class="btn cus-btn">Subscribe</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="social-icons">
+                                        <ul>
+                                            <li><a href="javascript:;" class="ins"><i class="fa fa-instagram fa-fw"></i></a></li>
+                                            <li><a href="javascript:;" class="fb"><i class="fa fa-facebook fa-fw"></i></a></li>
+                                            <li><a href="javascript:;" class="tw"><i class="fa fa-twitter fa-fw"></i></a></li>
+                                            <li><a href="javascript:;" class="go"><i class="fa fa-google-plus fa-fw"></i></a></li>
+                                            <li><a href="javascript:;" class="pin"><i class="fa fa-pinterest-p fa-fw"></i></a></li>
+                                            <li><a href="javascript:;" class="email"><i class="fa fa-envelope-o fa-fw"></i></a></li>
+                                        </ul>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-two-sec">
+            <div class="container">
+                <div class="footer-two-outer">
+                    <div class="footer-two-left">
+                        <div class="text-left">
+                            <ul class="ftr-list">
+                                <li> <a href="sitemap.html"> Sitemap </a> </li>
+                                <li> <a href="terms.html"> Terms Conditions </a> </li>
+                                <li> <a href="privacy.html"> Privacy Policy </a> </li>
+                            </ul>
+                            <p>Babzer.com is a product made by Babzer LLC 2017. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+<!-- offer acceptance Modal -->
+<div class="modal fade" id="loginmodal" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close abort-show" >&times;</button>
+                <h4 class="modal-title">Please Complete Your Help Request</h4>
+            </div>
+            <div class="modal-body">
+                <div class="login-email">
+                    <div class="login-icn">
+                        <img src="img/logo-iccn.png" class="img-responsive" />
+                    </div>
+                    <div class="email-cntnt">
+                        <h3>Enter Your Email Address</h3>
+                        <form>
+                            <div class="col-md-12 col-xs-12 col-sm-12 form-group">
+                                <input type="email" class="form-control txtfield" placeholder="Email Address" name="">
+                            </div>
+                        </form>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="or-login requst-or">
+                                <p>OR </p>
+                            </div>
+                        </div>
+                        <div class="social-login post-social">
+                            <ul>
+                                <li><a href="javascript:void(0)" class="facebook-icn"><span><i class="fa fa-facebook"></i></span>  </a></li>
+                                <li><a href="javascript:void(0)" class="twitter-icn"><span><i class="fa fa-twitter"></i></span>  </a></li>
+                                <li><a href="javascript:void(0)" class="linkedin-icn"><span><i class="fa fa-linkedin"></i></span>  </a></li>
+                                <li><a href="javascript:void(0)" class="google-icn"><span><i class="fa fa-google-plus"></i></span>  </a></li>
+                            </ul>
+                        </div>
+                        <div class="dotn-ahve">
+                            <p>Already have an account ? <a href="register.html">Login here</a></p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                            <a href="javascript:void(0)" id="email-nxt" class="cus-btn btn"> Next </a>
+                        </div>
+                    </div>
+                    <div class="user-cntnt">
+                        <h3>Choose A New User Name</h3>
+                        <p>Your User Name is public and Shown in your Profile.</p>
+                        <form>
+                            <div class="col-md-12 col-xs-12 col-sm-12 form-group">
+                                <input type="text" class="form-control txtfield" placeholder="Username" name="">
+                            </div>
+                        </form>
+                        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                            <div class="user-btns">
+                                <a href="javascript:void(0)" id="email-bck" class="btn-default btn"> Back </a>
+                                <a href="javascript:void(0)" id="user-nxt" class="cus-btn btn"> Next </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="passwrd-cntnt">
+                        <h3>Create a Passsword</h3>
+                        <p>A Strong Letters Combination Password helps protect your account</p>
+                        <form>
+                            <div class="col-md-12 col-xs-12 col-sm-12 form-group">
+                                <input type="passwrod" class="form-control txtfield" placeholder="Password" name="">
+                            </div>
+                        </form>
+                        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                            <div class="user-btns">
+                                <a href="javascript:void(0)" id="user-bck" class="btn-default btn"> Back </a>
+                                <a href="javascript:void(0)" class="cus-btn btn"> Next </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="abort-cntnt">
+                    	<h3>You are sure you want to abort posting your help request ?</h3>
+                    	<p> you are almost done !</p>
+                    	<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                            <div class="user-btns">
+                                <a href="javascript:void(0)" class="btn-default btn abort-show" data-dismiss="modal"> Close </a>
+                                <a href="javascript:void(0)" class="cus-btn btn abort-cncl"> Continue </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/fileinput.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/daterangepicker.js"></script>
+
+<script type="text/javascript">
+    $(window).scroll(function(){
+        if ($(window).scrollTop() >= 150) {
+           $('.navbar').addClass('fixed-header');
+        }
+        else {
+           $('.navbar').removeClass('fixed-header');
+        }
+    });
+</script>
+<script>
+    $('.toggle-cus-btn').on('click',function(){
+        $('#mySidenav').addClass('sidenav-active');
+    });
+    $('#mySidenav .closebtn').on('click',function(){
+       $('#mySidenav').removeClass('sidenav-active'); 
+    });
+</script>
+
+<script type="text/javascript">
+    $('.dropdown').on('show.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+    });
+
+    $('.dropdown').on('hide.bs.dropdown', function(e){
+      $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+    });
+</script>
+<script type="text/javascript">
+    $('#file-upload').fileinput();
+</script>
+<script type="text/javascript">
+    $('.hidden-usd').hide();
+    $('.usd-check').on('click',function(){
+        if ($(this).is(':checked')) {
+            $('.hidden-usd').show(300);
+        }
+        else {
+            $('.hidden-usd').hide(200);
+        }
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#daterange').daterangepicker({
+            timePicker: true,
+            timePickerIncrement: 30,
+            locale: {
+                format: 'MM/DD/YYYY h:mm A'
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $('#post-request').on('click',function(){
+        $('#loginmodal').modal('show');
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+    // Multiple images preview in browser
+    var imagesPreview = function(input, placeToInsertImagePreview) {
+
+        if (input.files) {
+            var filesAmount = input.files.length;
+
+            for (i = 0; i < filesAmount; i++) {
+                var reader = new FileReader();
+
+                reader.onload = function(event) {
+                    $($.parseHTML('<img>')).attr('src', event.target.result).appendTo(placeToInsertImagePreview);
+                }
+
+                reader.readAsDataURL(input.files[i]);
+            }
+        }
+
+    };
+
+    $('.gallery-photo-add').on('change', function() {
+        imagesPreview(this, 'div.gallery');
+    });
+});
+</script>
+<script type="text/javascript">
+    $('.user-cntnt').hide();
+    $('.passwrd-cntnt').hide();
+    $('.abort-cntnt').hide();
+
+    $('#email-nxt').on('click',function(){
+        $('.user-cntnt').show();
+        $('.email-cntnt').hide();
+    });
+    $('#email-bck').on('click',function(){
+        $('.user-cntnt').hide();
+        $('.email-cntnt').show();
+    });
+    $('#user-nxt').on('click',function(){
+        $('.user-cntnt').hide();
+        $('.passwrd-cntnt').show();
+    });
+    $('#user-bck').on('click',function(){
+        $('.passwrd-cntnt').hide();
+        $('.user-cntnt').show();
+    });
+    $('.abort-show').on('click',function(){
+    	$('.passwrd-cntnt').hide();
+    	$('.user-cntnt').hide();
+    	$('.email-cntnt').hide();
+    	$('.abort-cntnt').show();
+    });
+    $('.abort-cncl').on('click',function(){
+    	$('.abort-cntnt').hide();
+    	$('.passwrd-cntnt').show();
+    });
+</script>
+</html>

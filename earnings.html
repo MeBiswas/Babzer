@@ -1,0 +1,466 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Babzer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+        <link rel="icon" href="img/fav.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-editable-select.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css">
+        <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+        <link rel="stylesheet" type="text/css" href="css/margins-min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive-style.css">
+    </head>
+    <body>
+        <header class="header-main header-two header-dash">
+            <div class="header-min">
+                <nav class="navbar nav-sec">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="col-md-2 col-sm-2 col-xs-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" /></a>
+                            </div>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="col-md-10 col-sm-10 col-xs-12">
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <div class="nav navbar-nav navbar-right navigation-ul animated fadeInDown">
+                                    <div class="col-md-7 col-sm-7 col-xs-12">
+                                        <div class="dash-search">
+                                            <form>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control txtfield top-search" placeholder="Search People and Help Requests" name="">
+                                                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-sm-5 col-xs-12">
+                                        <div class="dash-alerts">
+                                            <ul>
+                                                <li class="ask-help-li"><a class="btn cus-btn" href="javascript:void(0)">Ask Help</a></li>
+                                                <li>
+                                                    <a href="javascript:void(0)"><span><i class="fa fa-envelope fa-fw"></i></span></a>
+                                                    <div class="top-notify top-dashmain-li message-li">
+                                                        <h4>Messages</h4>
+                                                        <div class="notify-contnt">
+                                                            <p>No Messages</p>
+                                                        </div>
+                                                        <p class="see-all-notify">See All</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)"><span><i class="fa fa-bell fa-fw"></i></span></a>
+                                                    <div class="top-notify top-dashmain-li">
+                                                        <h4>Notifications</h4>
+                                                        <div class="notify-contnt">
+                                                            <p>No Notifications</p>
+                                                        </div>
+                                                        <p class="see-all-notify">See All</p>
+                                                    </div>
+                                                </li>
+                                                <li class="dash-li-top">
+                                                    <a href="javascript:void(0)"><img src="img/profile3.jpg" class="img-responsive" /> <span></span> <i class="fa fa-caret-down"></i> <span class="onlin-icn"></span>  </a>
+                                                    <ul class="top-dropdwn-ul top-dashmain-li">
+                                                        <li>Your Account </li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-user fa-fw"></i></span>Profile
+                                                        </a></li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-lock fa-fw"></i></span>Privacy
+                                                        </a></li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-cogs fa-fw"></i></span>Settings
+                                                        </a></li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-sign-out fa-fw"></i></span>Logout</a></li>
+                                                        <li class="chat-set-li">Chat Setting</li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-circle gren-online fa-fw"></i>
+                                                        </span>Online</a></li>
+                                                        <li><a href="javascript:void(0)"><span><i class="fa fa-circle red-ofline fa-fw"></i>
+                                                        </span>Offline</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </header>
+        <section class="dashboard-main">
+            <div class="dashboard-min">
+                <div class="page-sidebar-wrapper">
+                    <div class="dash-sidebar">
+                        <div class="side-img">
+                            <img src="img/profile3.jpg" class="img-responsive" />
+                            <p class="name-prfl"> Harry Brown </p>
+                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                        </div>
+                        <div class="sidebar-listing">
+                            <ul>
+                                <li><a href="dashboard.html"><span><i class="fa fa-tachometer fa-fw"></i></span> iHelp Feed </a></li>
+                                <li><a href="my-requests.html"><span><i class="fa fa-handshake-o fa-fw"></i></span> Help Requested </a></li>
+                                <li class="help-prvd-li"><a href="javascript:void(0)"><span> <img src="img/hand-flld.png" class="img-responsive hnd-fld-icon" /> <img src="img/hand-flld-clr.png" class="img-responsive hnd-fld-clr" /> </span>  Help Provided </a></li>
+                                <li><a href="javascript:void(0)"><span><i class="fa fa-envelope-open fa-fw"></i></span> Help Invitation </a></li>
+                                <li><a href="javascript:void(0)"><span><i class="fa fa-user-plus fa-fw"></i></span> Followers </a></li>
+                                <li class="active"><a href="javascript:void(0)"><span><i class="fa fa-usd fa-fw"></i></span>  Transactions </a></li>
+                                <li><a href="javascript:void(0)"><span><i class="fa fa-gift fa-fw gift-icon"></i></span> Refer a Friend </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content-wrapper">
+                    <div class="page-content">
+                        <div class="dashboard-contnt">
+                            <div class="dash-main">
+                                <div class="col-md-8 col-sm-8 col-xs-8">
+                                    <div class="dash-main-cntnt">
+                                        <div class="help-request">
+                                            <div class="internal-heading">
+                                                <h3>Transactions</h3>
+                                            </div>
+                                            <div class="dash-earning-main">
+                                                <div class="earning-cntnt">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered">
+                                                            <thead>
+                                                                <th>Date</th>
+                                                                <th class="for">For</th>
+                                                                <th>Amount</th>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>2-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="rece-amt"> <i class="fa fa-plus fa-fw"></i> $ 276</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>3-Oct-2017</td>
+                                                                   <td class="for">Step By Step : Building your own lab in windows server 2017<a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="paid-amt"> <i class="fa fa-minus fa-fw"></i> $ 146</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>4-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="rece-amt"> <i class="fa fa-plus fa-fw"></i> $ 276</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>5-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="rece-amt"> <i class="fa fa-plus fa-fw"></i> $ 276</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>6-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="rece-amt"> <i class="fa fa-plus fa-fw"></i> $ 276</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>7-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="paid-amt"> <i class="fa fa-minus fa-fw"></i> $ 146</td>
+                                                                </tr>
+                                                                <tr>
+                                                                   <td>8-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="rece-amt"> <i class="fa fa-plus fa-fw"></i> $ 276</td>
+                                                                </tr>
+                                                                <tr>
+                                                                   <td>9-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="paid-amt"> <i class="fa fa-minus fa-fw"></i> $ 146</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>10-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="paid-amt"> <i class="fa fa-minus fa-fw"></i> $ 146</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>12-Oct-2017</td>
+                                                                    <td class="for">Step By Step : Building your own lab in windows server 2017 <a href="javascript:void(0)"> ( View more )</a></td>
+                                                                    <td class="rece-amt"> <i class="fa fa-plus fa-fw"></i> $ 276</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <div class="dash-right-contnt">
+                                        <div class="totl-balance">
+                                            <h3> My Activity </h3>
+                                            <div class="totl-ststics">
+                                                <ul>
+                                                    <li>
+                                                        <p class="m-0">Ask help</p>
+                                                        <div class="progress-wrap progress" data-progress-percent="50">
+                                                            <div class="progress-bar progress">
+                                                                <span class="asked-span">20 Paid</span>
+                                                            </div>
+                                                            <span class="solved-span">23 Free</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Offer help</p>
+                                                        <div class="progress-wrap prges-lgtblu progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress">
+                                                                <span class="asked-span">13 Paid</span>
+                                                            </div>
+                                                            <span class="solved-span">19 Free</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Profile</p>
+                                                        <div class="progress-wrap prges-orange progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress"></div>
+                                                            <span class="solved-span">50% Completion</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Total Balance</p>
+                                                        <div class="progress-wrap prges-lgtgrn progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress"></div>
+                                                            <span class="solved-span">$ 1,25,148</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="m-0">Available Balance</p>
+                                                        <div class="progress-wrap prges-green progress" data-progress-percent="70">
+                                                            <div class="progress-bar progress"></div>
+                                                            <span class="solved-span">$ 95,148</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="help-nearby">
+                                            <h3>Helps Nearby You </h3>
+                                            <div class="nearby-cntnt">
+                                                <div class="nerby-who">
+                                                    <img src="img/profile.jpg" class="img-responsive" />
+                                                </div>
+                                                <div class="nerby-name">
+                                                    <h4>
+                                                        William James 
+                                                        <span class="pull-right">
+                                                            <div class="nerby-add">
+                                                                <span class="follow-p">Open</span>
+                                                            </div>
+                                                        </span>
+                                                    </h4>
+                                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span class="rate-clr"> 5.0</span></span>
+                                                    <p><i class="fa fa-map-marker"></i> New York (USA), 10 min ago</p>
+                                                </div>
+                                                <div class="nerby-title">
+                                                    <div class="nerby-cntn">
+                                                        <a href="javascript:void(0)">Lorem ipsum is a dummy text</a>
+                                                        <p>Lorem ipsum dolor sit amet do esmod
+                                                            tempor incidit ut labore et dolore magna aliqua. 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nearby-cntnt">
+                                                <div class="nerby-who">
+                                                    <img src="img/profile.jpg" class="img-responsive" />
+                                                </div>
+                                                <div class="nerby-name">
+                                                    <h4>
+                                                        William James 
+                                                        <span class="pull-right">
+                                                            <div class="nerby-add">
+                                                                <span class="follow-p">Open</span>
+                                                            </div>
+                                                        </span>
+                                                    </h4>
+                                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span class="rate-clr"> 5.0</span></span>
+                                                    <p> <i class="fa fa-map-marker"></i> New York (USA), 10 min ago</p>
+                                                </div>
+                                                <div class="nerby-title">
+                                                    <div class="nerby-cntn">
+                                                        <a href="javascript:void(0)">Lorem ipsum is a dummy text</a>
+                                                        <p>Lorem ipsum dolor sit amet do esmod
+                                                            tempor incdunt ut labore et dolore magna aliqua. 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="follows-main">
+                                            <h3>Suggested Follows </h3>
+                                            <div class="nearby-cntnt">
+                                                <div class="suggest-frnd">
+                                                    <div class="nerby-who">
+                                                        <img src="img/profile.jpg" class="img-responsive" />
+                                                    </div>
+                                                    <div class="nerby-name follow-name nerby-right">
+                                                        <h4>
+                                                            William James 
+                                                            <span class="pull-right">
+                                                                <div class="nerby-add">
+                                                                    <span class="follow-p">Follow</span>
+                                                                </div>
+                                                            </span>
+                                                        </h4>
+                                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                                                        <ul>
+                                                            <li> <span class="fa fa-map-marker fa-fw"></span> New York (USA)</li>
+                                                            <li> <span class="fa fa-briefcase fa-fw"></span> Product Manager </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nearby-cntnt">
+                                                <div class="suggest-frnd">
+                                                    <div class="nerby-who">
+                                                        <img src="img/profile.jpg" class="img-responsive" />
+                                                    </div>
+                                                    <div class="nerby-name follow-name nerby-right">
+                                                        <h4>
+                                                            William James 
+                                                            <span class="pull-right">
+                                                                <div class="nerby-add">
+                                                                    <span class="follow-p">Follow</span>
+                                                                </div>
+                                                            </span>
+                                                        </h4>
+                                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                                                        <ul>
+                                                            <li> <span class="fa fa-map-marker fa-fw"></span> New York (USA)</li>
+                                                            <li> <span class="fa fa-briefcase fa-fw"></span> Product Manager </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nearby-cntnt">
+                                                <div class="suggest-frnd">
+                                                    <div class="nerby-who">
+                                                        <img src="img/profile.jpg" class="img-responsive" />
+                                                    </div>
+                                                    <div class="nerby-name follow-name nerby-right">
+                                                        <h4>
+                                                            William James 
+                                                            <span class="pull-right">
+                                                                <div class="nerby-add">
+                                                                    <span class="follow-p">Follow</span>
+                                                                </div>
+                                                            </span>
+                                                        </h4>
+                                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 5.0</span>
+                                                        <ul>
+                                                            <li> <span class="fa fa-map-marker fa-fw"></span> New York (USA)</li>
+                                                            <li> <span class="fa fa-briefcase fa-fw"></span> Product Manager </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="social-dash-link">
+                                            <ul>
+                                                <li><a href="javascript:void(0)">Sitemap</a></li>
+                                                <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+                                                <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                                            </ul>
+                                            <p>Copyright &copy; Babzer | All Rights Reserved</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery-editable-select.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/daterangepicker.js"></script>
+    
+    <script type="text/javascript">
+        $(window).scroll(function(){
+            if ($(window).scrollTop() >= 150) {
+               $('.navbar').addClass('fixed-header');
+            }
+            else {
+               $('.navbar').removeClass('fixed-header');
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).load(function(){
+            $('.loader-main').fadeOut('8000');
+        });
+    </script>
+    <script type="text/javascript">
+        $('.dropdown').on('show.bs.dropdown', function(e){
+            $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+        });
+
+        $('.dropdown').on('hide.bs.dropdown', function(e){
+          $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+        });
+    </script>
+    <script type="text/javascript">
+        $('#slide').editableSelect({ effects: 'slide' });
+    </script>
+    
+    <script type="text/javascript">
+        // on page load...
+        moveProgressBar();
+        // on browser resize...
+        $(window).resize(function() {
+            moveProgressBar();
+        });
+        
+        // SIGNATURE PROGRESS
+        function moveProgressBar() {
+          console.log("moveProgressBar");
+            var getPercent = ($('.progress-wrap').data('progress-percent') / 100);
+            var getProgressWrapWidth = $('.progress-wrap').width();
+            var progressTotal = getPercent * getProgressWrapWidth;
+            var animationLength = 2500;
+            
+            // on page load, animate percentage bar to data percentage length
+            // .stop() used to prevent animation queueing
+            $('.progress-bar').stop().animate({
+                left: progressTotal
+            }, animationLength);
+        }
+    </script>
+   
+    <script type="text/javascript">
+        $('.dash-alerts li').on('click',function(){
+            $(this).siblings('li').find('.top-dropdwn-active').removeClass('top-dropdwn-active');
+            $(this).find('.top-dashmain-li').toggleClass('top-dropdwn-active');
+        });
+        $('.dashboard-contnt').on('click',function(){   
+            $('.dash-alerts li').find('.top-dropdwn-active').removeClass('top-dropdwn-active');
+        });
+    </script>
+</html>
+
